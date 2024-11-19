@@ -43,7 +43,7 @@ def start_lesson_one():
         print(f'{num2} is greater than {num1}')
 
     deposit = int(input('Enter your depisote in RUB: '))
-    dollar_exchange = int(input('Enter dollar exchange rage in USD: '))
+    dollar_exchange = int(input('Enter dollar exchange rate in USD: '))
     print(f'Today your deposit is ${deposit / dollar_exchange}')
 #endregion
 
